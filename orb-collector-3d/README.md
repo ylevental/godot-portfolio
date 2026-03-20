@@ -3,7 +3,7 @@
 A 3D collection game built in Godot 4.2. Navigate a platform and collect floating orbs that bob and spin in the air.
 
 <!-- Replace with an actual screenshot -->
-<!-- ![Gameplay](./screenshot.png) -->
+![Gameplay](./screenshot.png)
 
 ## Gameplay
 
