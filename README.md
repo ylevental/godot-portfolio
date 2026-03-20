@@ -8,29 +8,36 @@ A collection of game projects built with **Godot 4.2**, demonstrating proficienc
 
 A fast-paced 2D survival game where the player dodges waves of randomly spawning enemies. Demonstrates 2D physics, procedural enemy generation, HUD/UI systems, input handling, and visual effects (starfield background, player trail).
 
-<!-- Screenshot placeholder: replace with an actual screenshot -->
 ![Dodge the Creeps](./dodge-the-creeps/screenshot.png)
 
 ### [Orb Collector 3D](./orb-collector-3d/) — 3D Collection Game
 
 A 3D game where the player navigates a platform to collect floating, bobbing orbs. Demonstrates 3D character control with smooth rotation, camera follow systems, signal-based architecture, procedural spawning, and scene lighting.
 
-<!-- Screenshot placeholder: replace with an actual screenshot -->
 ![Orb Collector 3D](./orb-collector-3d/screenshot.png)
+
+### [Platformer 2D](./platformer-2d/) — 2D Platformer with State Machine
+
+A side-scrolling platformer with wall jumping, one-way platforms, and coin collection. Features an explicit finite state machine for player control (IDLE → RUN → JUMP → FALL → WALL_SLIDE) and a level built procedurally from an ASCII string map.
+
+![Platformer 2D](./platformer-2d/screenshot.png)
 
 ## Technical Highlights
 
+- **State machine pattern**: Enum-based FSM with dedicated per-state methods, enter/exit actions, and clean transition logic
 - **GDScript**: Idiomatic use of signals, exports, groups, `@export` annotations, and Godot lifecycle methods (`_ready`, `_process`, `_physics_process`)
 - **Scene architecture**: Clean separation of scenes and scripts with signal-based communication between nodes
+- **Platformer polish**: Coyote time, jump buffering, variable-height jumps, squash-and-stretch animation — all without sprite assets
+- **Procedural level building**: ASCII-defined level layouts with StaticBody2D collision generated at runtime
 - **2D rendering**: Custom `_draw()` calls for procedural starfield and player motion trails
 - **3D fundamentals**: `CharacterBody3D` movement, `Area3D` collision detection, `WorldEnvironment` lighting, unshaded materials
-- **Procedural content**: Randomized enemy shapes/colors/spin, randomized orb spawn positions, edge-based enemy spawning
+- **Procedural content**: Randomized enemy shapes/colors/spin, randomized orb spawn positions, ASCII-defined level layouts
 
 ## How to Run
 
 1. Install [Godot 4.2+](https://godotengine.org/download)
 2. Clone this repository
-3. Open Godot → Import → navigate to either project's `project.godot`
+3. Open Godot → Import → navigate to any project's `project.godot`
 4. Press F5 to play
 
 ## Author
