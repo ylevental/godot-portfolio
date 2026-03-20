@@ -4,19 +4,19 @@ A collection of game projects built with **Godot 4.2**, demonstrating proficienc
 
 ## Projects
 
-### [Dodge the Creeps](./dodge-the-creeps/) — 2D Top-Down Survival Game
+### [Dodge the Creeps](./dodge-the-creeps/) - 2D Top-Down Survival Game
 
 A fast-paced 2D survival game where the player dodges waves of randomly spawning enemies. Demonstrates 2D physics, procedural enemy generation, HUD/UI systems, input handling, and visual effects (starfield background, player trail).
 
 ![Dodge the Creeps](./dodge-the-creeps/screenshot.png)
 
-### [Orb Collector 3D](./orb-collector-3d/) — 3D Collection Game
+### [Orb Collector 3D](./orb-collector-3d/) - 3D Collection Game
 
 A 3D game where the player navigates a platform to collect floating, bobbing orbs. Demonstrates 3D character control with smooth rotation, camera follow systems, signal-based architecture, procedural spawning, and scene lighting.
 
 ![Orb Collector 3D](./orb-collector-3d/screenshot.png)
 
-### [Platformer 2D](./platformer-2d/) — 2D Platformer with State Machine
+### [Platformer 2D](./platformer-2d/) - 2D Platformer with State Machine
 
 A side-scrolling platformer with wall jumping, one-way platforms, and coin collection. Features an explicit finite state machine for player control (IDLE → RUN → JUMP → FALL → WALL_SLIDE) and a level built procedurally from an ASCII string map.
 
