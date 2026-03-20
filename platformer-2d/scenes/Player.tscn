@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://player2d"]
+
+[ext_resource type="Script" path="res://scripts/Player.gd" id="1_player"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1"]
+size = Vector2(18, 28)
+
+[sub_resource type="LabelSettings" id="LabelSettings_1"]
+font_size = 10
+font_color = Color(1, 1, 1, 0.7)
+outline_size = 2
+outline_color = Color(0, 0, 0, 0.8)
+
+[node name="Player" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 1
+script = ExtResource("1_player")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_1")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, -16, -10, 14, 10, 14)
+
+[node name="StateLabel" type="Label" parent="."]
+offset_left = -30
+offset_top = -32
+offset_right = 30
+offset_bottom = -18
+horizontal_alignment = 1
+text = "IDLE"
+label_settings = SubResource("LabelSettings_1")
