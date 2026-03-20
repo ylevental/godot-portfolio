@@ -9,14 +9,14 @@ A collection of game projects built with **Godot 4.2**, demonstrating proficienc
 A fast-paced 2D survival game where the player dodges waves of randomly spawning enemies. Demonstrates 2D physics, procedural enemy generation, HUD/UI systems, input handling, and visual effects (starfield background, player trail).
 
 <!-- Screenshot placeholder: replace with an actual screenshot -->
-[Dodge the Creeps](./dodge-the-creeps/screenshot.png)
+![Dodge the Creeps](./dodge-the-creeps/screenshot.png)
 
 ### [Orb Collector 3D](./orb-collector-3d/) — 3D Collection Game
 
 A 3D game where the player navigates a platform to collect floating, bobbing orbs. Demonstrates 3D character control with smooth rotation, camera follow systems, signal-based architecture, procedural spawning, and scene lighting.
 
 <!-- Screenshot placeholder: replace with an actual screenshot -->
-[Orb Collector 3D](./orb-collector-3d/screenshot.png)
+![Orb Collector 3D](./orb-collector-3d/screenshot.png)
 
 ## Technical Highlights
 
