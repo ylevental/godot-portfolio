@@ -3,7 +3,7 @@
 A 2D top-down survival game built in Godot 4.2. Dodge waves of randomly generated enemies for as long as you can.
 
 <!-- Replace with an actual screenshot -->
-<!-- ![Gameplay](./screenshot.png) -->
+![Gameplay](./screenshot.png)
 
 ## Gameplay
 
